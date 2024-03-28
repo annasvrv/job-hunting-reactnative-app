@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "job-hunting-reactnative-app",
+    "slug": "job-hunting-reactnative-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
