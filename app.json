@@ -1,10 +1,13 @@
 {
   "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
     "name": "job-hunting-reactnative-app",
     "slug": "job-hunting-reactnative-app",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"],
+    "plugins": ["expo-router", "expo-font"]
   }
 }
