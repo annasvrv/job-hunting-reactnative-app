@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { View, Text } from "react-native";
 import axios from "axios";
 
 const useFetch = (endpoint, query) => {
@@ -29,7 +28,8 @@ const useFetch = (endpoint, query) => {
       setIsLoading(false);
     } catch (error) {
       setError(error);
-      alert("There is an error");
+      console.log(error);
+      // alert("There is an error");
     } finally {
       setIsLoading(false);
     }
