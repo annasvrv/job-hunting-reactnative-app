@@ -14,7 +14,6 @@ import { COLORS, SIZES } from "../../../constants";
 import PopularJobCard from "../../common/cards/popular/PopularJobCard";
 import useFetch from "../../../hook/useFetch";
 
-
 const Popularjobs = () => {
   const router = useRouter();
 
